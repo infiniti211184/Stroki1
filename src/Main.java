@@ -1,47 +1,28 @@
 public class Main {
-    public static void main(String[] args) {
-        String firstName = "Petr ";
-        String middleName = "Ivanovich ";
-        String lastName = "Ivanov ";
-
-        String fullName = firstName + middleName + lastName;
+public static void main(String[] args) {
+        String firstName = "Артём ";
+        String middleName = "Семёнович";
+        String lastName = "Ёжиков ";
+        String fullName = lastName + firstName + middleName;
         System.out.println("ФИО сотрудника - " + fullName);
-    }
+        System.out.println();
 
-    {  //2 способ
-        var firstName = "Petr";
-        var middleName = "Ivanovich";
-        var lastName = "Ivanov";
-        var fullName = "PII";
 
-        var fullName; String.format("%s %s %s", lastName, firstName, middleName);
-    }
-    // Задача 2.
-// Задача 2.
-    String firstName = "Petr ";
-    String middleName = "Ivanovich ";
-    String lastName = "Ivanov ";
+        // Задание 2
 
-    String fullName = String.format("%s %s %s", firstName, middleName, lastName);
-            System.out.println("ФИО сотрудника для отчета - " + fullName.toUpperCase());
-}
-    }
-// Задача 3.
-public class Main {
-    public static void main(String[] args) {
-        String fullName = "Ёжиков Артём Семёнович";
-        var split :String[] = fullName.split( regex " ");
-        for (String current.contains ("ё")){
-            var text :String = current.replace(target:"ё", replacement:"е");
-            System.out.print(text);
-        } else {
-            System.out.print(current);
+        String fullNameUpper = fullName.toUpperCase();
+
+        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullNameUpper);
+        System.out.println();
+
+
+        // Задание 3
+
+        String fullNameI = "Ежиков Артём Семёнович";
+        fullNameI = fullNameI.replace("ё", "e");
+        System.out.println("Данные ФИО сотрудника -" + fullNameI);
+
+
         }
-        System.out.print(" ");
-    }
-}
-
-}
-
-
+        }
 
